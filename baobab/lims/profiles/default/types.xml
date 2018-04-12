@@ -15,6 +15,8 @@
     <object name="Multimage" meta_type="Factory-based Type Information with dynamic views"/>
     <object name="StorageType" meta_type="Factory-based Type Information with dynamic views"/>
     <object name="StorageTypes" meta_type="Factory-based Type Information with dynamic views"/>
+    <object name="Patient" meta_type="Factory-based Type Information with dynamic views"/>
+    <object name="Patients" meta_type="Factory-based Type Information with dynamic views"/>
 
     <object name="InventoryOrder" meta_type="Factory-based Type Information with dynamic views"/>
     <object name="InventoryOrderFolder" meta_type="Factory-based Type Information with dynamic views"/>

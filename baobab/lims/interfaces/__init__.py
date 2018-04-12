@@ -129,3 +129,10 @@ class IStorageUnits(Interface):
 class ISharableSample(Interface):
     """
     """
+class IPatient(Interface):
+    """
+    """
+
+class IPatients(Interface):
+    """
+    """

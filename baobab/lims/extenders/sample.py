@@ -68,6 +68,20 @@ class SampleSchemaExtender(object):
             ),
         ),
         ExtReferenceField(
+            'SelectedPatient',
+            #multiValue=1,
+            allowed_types=('Patient'),
+            relationship='PatientSamples',
+            widget=bika_ReferenceWidget(
+                label=("Select Patient"),
+                description=_("Select patient for biospecimen"),
+                size=40,
+                visible={'edit': 'visible', 'view': 'visible'},
+                catalog_name='bika_catalog',
+                showOn=True
+            )
+        ),
+        ExtReferenceField(
             'Kit',
             vocabulary_display_path_bound=sys.maxint,
             allowed_types=('Kit',),
