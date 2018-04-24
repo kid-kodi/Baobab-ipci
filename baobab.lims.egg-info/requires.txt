@@ -1,0 +1,17 @@
+setuptools
+bika.lims
+archetypes.schemaextender
+plone.app.relationfield
+z3c.relationfield
+collective.wtf
+plone.formwidget.datetime
+
+[test]
+plone.app.testing
+robotsuite
+robotframework-selenium2library
+plone.app.robotframework
+Products.PloneTestCase
+robotframework-debuglibrary
+plone.resource
+plone.app.textfield

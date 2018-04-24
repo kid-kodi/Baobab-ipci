@@ -1,0 +1,5 @@
+msgid "Projects"
+msgstr "Projets"
+
+msgid "Shipments"
+msgstr "Expéditions"

@@ -1,4 +1,5 @@
 from Products.Archetypes.public import *
+from Products.Archetypes.atapi import *
 from Products.CMFCore import permissions
 from AccessControl import ClassSecurityInfo
 from Products.CMFCore.utils import getToolByName
