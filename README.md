@@ -24,7 +24,7 @@ Installation
 
 #### Autonome
 
-* Baobab LIMS Standalone [installation] (https://github.com/hocinebendou/baobab.lims/wiki/Installation)
+* Baobab LIMS Standalone [installation] (https://github.com/kid-kodi/Baobab-ipci/wiki/Installation)
 
 Documentation
 -------------
