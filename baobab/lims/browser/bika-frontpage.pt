@@ -1,6 +1,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
         metal:use-macro="here/main_template/macros/master"
-        i18n:domain="bika">
+        i18n:domain="baobab.lims">
 
 <metal:content-title fill-slot="content-title">
     <a href=""
@@ -38,23 +38,29 @@
 
 
         <div style="float:left;width:47%;">
-            <h2 style="margin-bottom:10px;border-bottom:1px solid #CDCDCD;font-size:1.6em;text-align:left;"> Description</h2>
-            <p style="line-height:140%;font-size:1.2em;text-align:left;padding-bottom:15px;">
+            <h2 style="margin-bottom:10px;border-bottom:1px solid #CDCDCD;font-size:1.6em;text-align:left;" i18n:translate="description_title"> Description</h2>
+            <p style="line-height:140%;font-size:1.2em;text-align:left;padding-bottom:15px;" i18n:translate="description_text">
                 Baobab LIMS, a human LIMS system, a priori designed following the SOPs the Stellenbosh university biobank defined to organise their biobanking activities. Ongoing efforts, with other biobanks, are made to extend
                 the set of SOPS, thus extend the usabilty of the system. The figure in the right panel shows the deducted, from the SOPS, workflow.<br><br>
 
-                Baobab LIMS is Free and Open Source. Some of modules are inherited from <a class="external-link" href="https://github.com/bikalabs/bika.lims.git">Bika LIMS</a>. Baobab LIMS can be customised
+                Baobab LIMS is Free and Open Source. Some of modules are inherited from
+                <a class="external-link" href="https://github.com/bikalabs/bika.lims.git">Bika LIMS</a>
+                . Baobab LIMS can be customised
                 to your lab's specific requirements.
             </p>
 
-            <h2 style="margin-bottom:10px;padding-top:15px;border-bottom:1px solid #CDCDCD;font-size:1.6em;">Documentation</h2>
+            <h2 style="margin-bottom:10px;padding-top:15px;border-bottom:1px solid #CDCDCD;font-size:1.6em;" i18n:translate="doc_title">Documentation</h2>
 
-            <p style="line-height:140%;font-size:1.2em;">
+            <p style="line-height:140%;font-size:1.2em;" i18n:translate="wip">
                 Work in progress:
             </p>
             <ul style="font-size:1.2em;margin-left:15px;">
-                <li><a class="external-link" href="manual.pdf" target="_blank">Baobab LIMS User Manual</a></li>
-                <li><a href="https://github.com/hocinebendou/baobab.lims/wiki"><span class="state-published">Baobab LIMS Wiki</span></a></li>
+                <li><a class="external-link" href="manual.pdf" target="_blank" i18n:translate="manual_lnk">Baobab LIMS User Manual</a></li>
+                <li>
+                    <a href="https://github.com/hocinebendou/baobab.lims/wiki">
+                        <span class="state-published" i18n:translate="manual_wiki">Baobab LIMS Wiki</span>
+                    </a>
+                </li>
             </ul>
 
             <h2 style="margin-bottom:10px;border-bottom:1px solid #CDCDCD;font-size:1.6em;padding-top:15px;">Baobab LIMS Installation</h2>

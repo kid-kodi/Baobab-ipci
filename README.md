@@ -30,7 +30,7 @@ Documentation
 -------------
 
 * [Manuel de l'utilisateur] (https://b3abiobank.sanbi.ac.za/demo/manual.pdf)
-* [Github Wiki] (https://github.com/hocinebendou/baobab.lims/wiki)
+* [Github Wiki] https://github.com/kid-kodi/Baobab-ipci/wiki)
 
 Commentaires et soutien
 --------------------

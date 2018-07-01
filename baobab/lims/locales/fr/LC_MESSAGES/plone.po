@@ -3,3 +3,10 @@ msgstr "Projets"
 
 msgid "Shipments"
 msgstr "Expéditions"
+
+msgid "View your Baobab installation"
+msgstr "Aller a l'installation de Baobab"
+
+msgid "Go to your installation"
+msgstr "Aller a l'installation de Baobab"
+
